@@ -13,6 +13,7 @@ USAGE::
 
 from setuptools import setup, find_packages
 
+#if you wish to installl all the requirements along or else you can skip the below 
 with open(requirements.txt) as f:
     reqrmnt=f.read()
 
