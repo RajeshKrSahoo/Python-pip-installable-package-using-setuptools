@@ -40,3 +40,10 @@ So the winner is .whl file ofcourse
 • Creates .pyc files as part of installation to ensure they match the python interpreter used.
 
 • More consistent installs across platforms and machines.
+
+
+You can do much more, to know more about just go for this below link:
+    https://setuptools.readthedocs.io/en/latest/setuptools.html#id4
+    
+ """
+ """
