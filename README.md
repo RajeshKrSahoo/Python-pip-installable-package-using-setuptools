@@ -30,8 +30,13 @@ So question is which one is better for installation? here is the answer below
 So the winner is .whl file ofcourse
 #### Advantages of .whl file:
 • Faster installation for pure python and native C extension packages.
+
 • Avoids arbitrary code execution for installation. (Avoids setup.py)
+
 • Installation of a C extension does not require a compiler on Windows or OS X.
+
 • Allows better caching for testing and continuous integration.
+
 • Creates .pyc files as part of installation to ensure they match the python interpreter used.
+
 • More consistent installs across platforms and machines.
